@@ -1,0 +1,141 @@
+#commentsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+.commentWrapperJs{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.commentItem{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 10px;
+    
+}
+
+.commentImage{
+    height: 60px; width:60px; border-radius:10%;
+    object-fit: cover;
+}
+
+.commentText{
+    display: flex; flex-direction: column;justify-content: center; position: relative;
+}
+
+.commentClientName:hover{
+    color: #2c9964;
+}
+
+.commentClientName{
+    color:#2c9964; font-weight:700;
+}
+.commentClientDescrp{
+    display: block;
+    width: 80%;
+}
+.buttonContainter{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap:10px
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+
+}
+.customLikeButton{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    background-image: url("./../img/facebookLike.png");
+    
+        width: 30px;
+        height: 30px;
+    background-size: cover;
+}
+.buttonLikeWrapper{
+    padding: 2px 4px;    
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    display: flex;
+    align-items: center;
+    gap: 5px    ;
+
+}
+.customLikeCount{
+    font-size: 12px;
+}
+.buttonAddWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.customAddButton{
+        background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    background-image: url("./../img/addIcon.png");
+    width: 30px;
+    height: 30px;
+background-size: cover;
+}
+
+.customCommentInput{
+    background: none;
+	color: inherit;
+	border: 1;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    border-radius: 16px;
+    padding: 10px;
+
+}
+.addButtonInputDown{
+    background: none;
+	color: inherit;
+	border: 1;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+    border-radius: 16px;
+    padding: 10px;
+    font-weight: 700;
+    margin-top: 10px;
+	outline: inherit;
+}
+
+.subCommentsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.commentItemGuest{
+ display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 10px;
+    margin-left: 20%;
+}
+
+.commentImageGuest{
+    height: 60px; width:60px; border-radius:10px;
+    background-color: rgb(223, 215, 215);
+}
+
