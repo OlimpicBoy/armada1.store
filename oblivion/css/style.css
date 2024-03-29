@@ -1,3 +1,26 @@
+.green-bg{
+    background: #0E3321;
+
+}
+
+
+.yellow-bg{
+    background: #e2a861;
+}
+
+.yellow-text {
+    color: #e2a861 !important;
+}
+
+
+    .black-border-for-text {
+        /* // add text-shadow as border*/
+        text-shadow:  1px 1px 0 #000,
+                      -1px -1px 0 #000,
+                      1px -1px 0 #000,
+                      -1px 1px 0 #000;
+}
+/* my-yeelow: #ec930f */
 .block-1 {
     /* background: url(https://armo3a.bagsale.xyz/img/header.jpg) center 0 no-repeat #0E3321; */
     background: #0E3321;
@@ -789,11 +812,12 @@ table {
     padding-top: 4px;
     text-decoration: line-through;
     display: inline-block;
+    color: #fff;
 }
 
 .header .price .sale {
     color: #fff;
-    background: #ff4e00;
+    /* background: #ff4e00; */
     font-size: 14px;
     line-height: 18px;
     display: inline-block;

@@ -268,33 +268,15 @@
                     <h2 style="font: 18px 'MuseoSansCyrl-700'; padding: 5px; background: white; color: #0E3321"
                         class="center">Наші менеджери з вами звʼяжуться <br>та допоможуть з оформленням замовлення</h2>
                 </div>
-                <div class="header" style="">
-
-
-                    <div class="timer_price">
-
-                        <div class="price">
-                            <div class="old">
-                                3850 грн
-                            </div>
-                            <div class="sale">
-                                -35%
-                            </div>
-                        </div>
-                        <div class="price">
-
-                            <div class="new b">
-                                2499 грн
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
+               
 
                 <div></div>
             </div>
+
+
+            // div green-bg class
+            <div class="green-bg" >
+
             <div class="timer" id="form" style="margin-top: 20px;">
                 <p class="center">До кінця акції:</p>
                 <div class="countbox clearfix">
@@ -317,6 +299,44 @@
                     </div>
                 </div>
             </div>
+
+
+            <div class="header" style="">
+
+
+                <div class="timer_price">
+
+                    <div class="price">
+                        <div class="old black-border-for-text">
+                            3850 грн
+                        </div>
+                        <div class="yellow-bg sale black-border-for-text">
+                            -35%
+                        </div>
+                    </div>
+                    <div class="price">
+
+                        <div class="black-border-for-text yellow-text new b">
+                            2499 грн
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <form id="order_form" class="m1-form" role="form" action="order.php" method="post" onsubmit="if(this.name.value==''){alert('Введіть ваше імʼя!');return false}if(this.phone.value==''){alert('Введіть ваш номер телефону');return false}return true;">
+
+
+
+                <input class="field" name="name" type="text" placeholder="Введіть ваше ім'я">
+                <input class="field" name="phone" type="tel" placeholder="Введіть телефон">
+                <button class="button-m" type="submit">Замовити зараз</button>
+            </form>
+
+        </div>
+
 
             <div class="footer center">
                 <hr>
